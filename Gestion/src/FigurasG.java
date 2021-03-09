@@ -223,11 +223,7 @@ public class FigurasG extends JFrame {
 		btnTriangulo.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				double base= Double.parseDouble(txtBaseT.getText());
-				double altura= Double.parseDouble(txtAlturaT.getText());
-				double area=(base*altura)/2;
-				String cadena = String.valueOf(area);
-				lblRTriangulo.setText("El área del triángulo es:   "+cadena+" m²");
+				
 			}
 		});
 		btnTriangulo.setForeground(Color.WHITE);
